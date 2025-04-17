@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+  </listeners>
+  <test thread-count="5" name="Product Page Test(failed)" verbose="0">
+    <classes>
+      <class name="com.testcases.ProductPageTest">
+        <methods>
+          <include name="testSortPriceLowtoHigh" invocation-numbers="1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSortPriceHightoLow" invocation-numbers="1"/>
+          <include name="testSortNameZtoA" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.testcases.ProductPageTest -->
+    </classes>
+  </test> <!-- Product Page Test(failed) -->
+  <test thread-count="5" name="Cart Page Test(failed)" verbose="0">
+    <classes>
+      <class name="com.testcases.CartPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCheckoutRandomAsset" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.testcases.CartPageTest -->
+    </classes>
+  </test> <!-- Cart Page Test(failed) -->
+</suite> <!-- Failed suite [SauceDemo Suite] -->

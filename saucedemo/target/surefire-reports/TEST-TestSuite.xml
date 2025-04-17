@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="56.247" tests="19" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/anjuv/eclipse-workspace/saucedemo/target/test-classes:/Users/anjuv/eclipse-workspace/saucedemo/target/classes:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-java/4.30.0/selenium-java-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-api/4.30.0/selenium-api-4.30.0.jar:/Users/anjuv/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.30.0/selenium-chrome-driver-4.30.0.jar:/Users/anjuv/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.30.0/selenium-chromium-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-json/4.30.0/selenium-json-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.30.0/selenium-manager-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.30.0/selenium-devtools-v132-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.30.0/selenium-devtools-v133-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.30.0/selenium-devtools-v134-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.30.0/selenium-edge-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.30.0/selenium-firefox-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-http/4.30.0/selenium-http-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.30.0/selenium-ie-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.30.0/selenium-remote-driver-4.30.0.jar:/Users/anjuv/.m2/repository/com/google/guava/guava/33.4.5-jre/guava-33.4.5-jre.jar:/Users/anjuv/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/anjuv/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/anjuv/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/anjuv/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-api/1.48.0/opentelemetry-api-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-context/1.48.0/opentelemetry-context-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.48.0/opentelemetry-exporter-logging-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.48.0/opentelemetry-sdk-common-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.48.0/opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.48.0/opentelemetry-sdk-extension-autoconfigure-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.48.0/opentelemetry-sdk-trace-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.48.0/opentelemetry-sdk-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.48.0/opentelemetry-sdk-metrics-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.48.0/opentelemetry-sdk-logs-1.48.0.jar:/Users/anjuv/.m2/repository/net/bytebuddy/byte-buddy/1.17.2/byte-buddy-1.17.2.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-os/4.30.0/selenium-os-4.30.0.jar:/Users/anjuv/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.30.0/selenium-safari-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-support/4.30.0/selenium-support-4.30.0.jar:/Users/anjuv/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/anjuv/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/anjuv/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/anjuv/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/anjuv/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/anjuv/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/anjuv/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar:/Users/anjuv/.m2/repository/io/qameta/allure/allure-testng/2.24.0/allure-testng-2.24.0.jar:/Users/anjuv/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/anjuv/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/anjuv/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/anjuv/.m2/repository/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.jar:/Users/anjuv/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/anjuv/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/Users/anjuv/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/anjuv/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/anjuv/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/anjuv/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/anjuv/.sdkman/candidates/java/17.0.9-tem/lib"/>
+    <property name="sun.java.command" value="/Users/anjuv/eclipse-workspace/saucedemo/target/surefire/surefirebooter-20250417181642571_3.jar /Users/anjuv/eclipse-workspace/saucedemo/target/surefire 2025-04-17T18-16-42_528-jvmRun1 surefire-20250417181642571_1tmp surefire_0-20250417181642571_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/anjuv/eclipse-workspace/saucedemo/target/test-classes:/Users/anjuv/eclipse-workspace/saucedemo/target/classes:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-java/4.30.0/selenium-java-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-api/4.30.0/selenium-api-4.30.0.jar:/Users/anjuv/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.30.0/selenium-chrome-driver-4.30.0.jar:/Users/anjuv/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.30.0/selenium-chromium-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-json/4.30.0/selenium-json-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.30.0/selenium-manager-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.30.0/selenium-devtools-v132-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.30.0/selenium-devtools-v133-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.30.0/selenium-devtools-v134-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.30.0/selenium-edge-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.30.0/selenium-firefox-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-http/4.30.0/selenium-http-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.30.0/selenium-ie-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.30.0/selenium-remote-driver-4.30.0.jar:/Users/anjuv/.m2/repository/com/google/guava/guava/33.4.5-jre/guava-33.4.5-jre.jar:/Users/anjuv/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/anjuv/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/anjuv/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/anjuv/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-api/1.48.0/opentelemetry-api-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-context/1.48.0/opentelemetry-context-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.48.0/opentelemetry-exporter-logging-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.48.0/opentelemetry-sdk-common-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.48.0/opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.48.0/opentelemetry-sdk-extension-autoconfigure-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.48.0/opentelemetry-sdk-trace-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.48.0/opentelemetry-sdk-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.48.0/opentelemetry-sdk-metrics-1.48.0.jar:/Users/anjuv/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.48.0/opentelemetry-sdk-logs-1.48.0.jar:/Users/anjuv/.m2/repository/net/bytebuddy/byte-buddy/1.17.2/byte-buddy-1.17.2.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-os/4.30.0/selenium-os-4.30.0.jar:/Users/anjuv/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.30.0/selenium-safari-driver-4.30.0.jar:/Users/anjuv/.m2/repository/org/seleniumhq/selenium/selenium-support/4.30.0/selenium-support-4.30.0.jar:/Users/anjuv/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/anjuv/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/anjuv/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/anjuv/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/anjuv/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/anjuv/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/anjuv/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar:/Users/anjuv/.m2/repository/io/qameta/allure/allure-testng/2.24.0/allure-testng-2.24.0.jar:/Users/anjuv/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/anjuv/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/anjuv/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/anjuv/.m2/repository/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.jar:/Users/anjuv/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/anjuv/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/Users/anjuv/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/anjuv/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/anjuv/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/anjuv/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:"/>
+    <property name="allure.results.directory" value="target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/anjuv"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Users/anjuv/.sdkman/candidates/java/17.0.9-tem"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/anjuv/eclipse-workspace/saucedemo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/anjuv/eclipse-workspace/saucedemo/target/surefire/surefirebooter-20250417181642571_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.9+9"/>
+    <property name="user.name" value="anjuv"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.9+9"/>
+    <property name="localRepository" value="/Users/anjuv/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/_w/gs1xn4p171l410649xw8s4wm0000gn/T/"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="/Users/anjuv/eclipse-workspace/saucedemo"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/anjuv/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.9+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testTitleVerification" classname="com.testcases.LoginPageTest" time="0.042">
+    <system-out><![CDATA[18:16:47.483 [main] INFO  com.testcases.LoginPageTest - [TC001] Login Page
+18:16:47.485 [main] INFO  com.testcases.LoginPageTest - Verification of login page title
+18:16:47.493 [main] INFO  com.testcases.LoginPageTest - Test verification title matched
+18:16:47.494 [main] INFO  com.testcases.LoginPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J(W): Ignoring binding found at [jar:file:/Users/anjuv/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J(W): See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Ability to run JUnit tests via TestNG was deprecated in v7.7.0 and is NOW being removed permanently. If you would like to run a mixture of TestNG and JUnit tests then please take a look at  https://github.com/junit-team/testng-engine which is now maintained by the JUnit team
+Ability to run JUnit tests via TestNG was deprecated in v7.7.0 and is NOW being removed permanently. If you would like to run a mixture of TestNG and JUnit tests then please take a look at  https://github.com/junit-team/testng-engine which is now maintained by the JUnit team
+Ability to run JUnit tests via TestNG was deprecated in v7.7.0 and is NOW being removed permanently. If you would like to run a mixture of TestNG and JUnit tests then please take a look at  https://github.com/junit-team/testng-engine which is now maintained by the JUnit team
+Ability to run JUnit tests via TestNG was deprecated in v7.7.0 and is NOW being removed permanently. If you would like to run a mixture of TestNG and JUnit tests then please take a look at  https://github.com/junit-team/testng-engine which is now maintained by the JUnit team
+Apr 17, 2025 6:16:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testInvalidLogin[locked_out_user, secret_sauce, locked out](1)" classname="com.testcases.LoginPageTest" time="0.311">
+    <system-out><![CDATA[18:16:49.624 [main] INFO  com.testcases.LoginPageTest - [TC003] Login Page
+18:16:49.625 [main] INFO  com.testcases.LoginPageTest - Verification of invalid login scenario locked out
+18:16:49.625 [main] INFO  com.testcases.LoginPageTest - Enter username
+18:16:49.783 [main] INFO  com.testcases.LoginPageTest - Enter password
+18:16:49.842 [main] INFO  com.testcases.LoginPageTest - Click on login button
+18:16:49.912 [main] INFO  com.testcases.LoginPageTest - Test verification invalid login message matched
+18:16:49.912 [main] INFO  com.testcases.LoginPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:16:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testInvalidLogin[invalid_user, wrong_pass, Username and password](2)" classname="com.testcases.LoginPageTest" time="0.217">
+    <system-out><![CDATA[18:16:51.882 [main] INFO  com.testcases.LoginPageTest - [TC003] Login Page
+18:16:51.882 [main] INFO  com.testcases.LoginPageTest - Verification of invalid login scenario Username and password
+18:16:51.883 [main] INFO  com.testcases.LoginPageTest - Enter username
+18:16:51.999 [main] INFO  com.testcases.LoginPageTest - Enter password
+18:16:52.043 [main] INFO  com.testcases.LoginPageTest - Click on login button
+18:16:52.094 [main] INFO  com.testcases.LoginPageTest - Test verification invalid login message matched
+18:16:52.095 [main] INFO  com.testcases.LoginPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:16:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testInvalidLogin[, , Username is required](3)" classname="com.testcases.LoginPageTest" time="0.162">
+    <system-out><![CDATA[18:16:54.049 [main] INFO  com.testcases.LoginPageTest - [TC003] Login Page
+18:16:54.050 [main] INFO  com.testcases.LoginPageTest - Verification of invalid login scenario Username is required
+18:16:54.051 [main] INFO  com.testcases.LoginPageTest - Enter username
+18:16:54.119 [main] INFO  com.testcases.LoginPageTest - Enter password
+18:16:54.159 [main] INFO  com.testcases.LoginPageTest - Click on login button
+18:16:54.207 [main] INFO  com.testcases.LoginPageTest - Test verification invalid login message matched
+18:16:54.208 [main] INFO  com.testcases.LoginPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:16:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testInvalidLogin[standard_user, , Password is required](4)" classname="com.testcases.LoginPageTest" time="0.211">
+    <system-out><![CDATA[18:16:56.198 [main] INFO  com.testcases.LoginPageTest - [TC003] Login Page
+18:16:56.199 [main] INFO  com.testcases.LoginPageTest - Verification of invalid login scenario Password is required
+18:16:56.199 [main] INFO  com.testcases.LoginPageTest - Enter username
+18:16:56.311 [main] INFO  com.testcases.LoginPageTest - Enter password
+18:16:56.354 [main] INFO  com.testcases.LoginPageTest - Click on login button
+18:16:56.404 [main] INFO  com.testcases.LoginPageTest - Test verification invalid login message matched
+18:16:56.404 [main] INFO  com.testcases.LoginPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:16:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testValidLogin[standard_user, secret_sauce, inventory.html](1)" classname="com.testcases.LoginPageTest" time="0.256">
+    <system-out><![CDATA[18:16:58.311 [main] INFO  com.testcases.LoginPageTest - [TC002] Login Page
+18:16:58.313 [main] INFO  com.testcases.LoginPageTest - Verification of valid login for standard_user
+18:16:58.313 [main] INFO  com.testcases.LoginPageTest - Enter valid username
+18:16:58.426 [main] INFO  com.testcases.LoginPageTest - Enter valid password
+18:16:58.472 [main] INFO  com.testcases.LoginPageTest - Click on login button
+18:16:58.559 [main] INFO  com.testcases.LoginPageTest - Test verification dashboard title matched
+18:16:58.565 [main] INFO  com.testcases.LoginPageTest - Cookie [session-username]: standard_user
+18:16:58.565 [main] INFO  com.testcases.LoginPageTest - Cookie validation passed: session-username = standard_user
+18:16:58.565 [main] INFO  com.testcases.LoginPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:16:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testValidLogin[problem_user, secret_sauce, inventory.html](2)" classname="com.testcases.LoginPageTest" time="0.224">
+    <system-out><![CDATA[18:17:00.510 [main] INFO  com.testcases.LoginPageTest - [TC002] Login Page
+18:17:00.511 [main] INFO  com.testcases.LoginPageTest - Verification of valid login for problem_user
+18:17:00.511 [main] INFO  com.testcases.LoginPageTest - Enter valid username
+18:17:00.620 [main] INFO  com.testcases.LoginPageTest - Enter valid password
+18:17:00.665 [main] INFO  com.testcases.LoginPageTest - Click on login button
+18:17:00.728 [main] INFO  com.testcases.LoginPageTest - Test verification dashboard title matched
+18:17:00.731 [main] INFO  com.testcases.LoginPageTest - Cookie [session-username]: problem_user
+18:17:00.731 [main] INFO  com.testcases.LoginPageTest - Cookie validation passed: session-username = problem_user
+18:17:00.732 [main] INFO  com.testcases.LoginPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:16:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testTitleVerification[standard_user, secret_sauce, inventory.html](1)" classname="com.testcases.ProductPageTest" time="0.229">
+    <system-out><![CDATA[18:17:02.681 [main] INFO  com.testcases.ProductPageTest - [TC001] Product Page
+18:17:02.682 [main] INFO  com.testcases.ProductPageTest - Verification of main and sub titles
+18:17:02.683 [main] INFO  com.testcases.ProductPageTest - Login with user : standard_user
+18:17:02.879 [main] INFO  com.testcases.ProductPageTest - Login successful
+18:17:02.891 [main] INFO  com.testcases.ProductPageTest - Test verification main title matched
+18:17:02.904 [main] INFO  com.testcases.ProductPageTest - Test verification sub title matched
+18:17:02.905 [main] INFO  com.testcases.ProductPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testTitleVerification[problem_user, secret_sauce, inventory.html](2)" classname="com.testcases.ProductPageTest" time="0.228">
+    <system-out><![CDATA[18:17:04.828 [main] INFO  com.testcases.ProductPageTest - [TC001] Product Page
+18:17:04.829 [main] INFO  com.testcases.ProductPageTest - Verification of main and sub titles
+18:17:04.829 [main] INFO  com.testcases.ProductPageTest - Login with user : problem_user
+18:17:05.022 [main] INFO  com.testcases.ProductPageTest - Login successful
+18:17:05.043 [main] INFO  com.testcases.ProductPageTest - Test verification main title matched
+18:17:05.053 [main] INFO  com.testcases.ProductPageTest - Test verification sub title matched
+18:17:05.053 [main] INFO  com.testcases.ProductPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testSortNameAtoZ[standard_user, secret_sauce, inventory.html](1)" classname="com.testcases.ProductPageTest" time="0.295">
+    <system-out><![CDATA[18:17:07.030 [main] INFO  com.testcases.ProductPageTest - [TC002] Product Page
+18:17:07.032 [main] INFO  com.testcases.ProductPageTest - Verification sort feature : Name (A to Z)
+18:17:07.034 [main] INFO  com.testcases.ProductPageTest - Login with user : standard_user
+18:17:07.244 [main] INFO  com.testcases.ProductPageTest - Login successful
+18:17:07.293 [main] INFO  com.testcases.ProductPageTest - Selected "Name (A to Z)" sort option
+18:17:07.323 [main] INFO  com.testcases.ProductPageTest - Verified all item are sorted according to name in aescending order
+18:17:07.323 [main] INFO  com.testcases.ProductPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testSortNameAtoZ[problem_user, secret_sauce, inventory.html](2)" classname="com.testcases.ProductPageTest" time="0.286">
+    <system-out><![CDATA[18:17:09.313 [main] INFO  com.testcases.ProductPageTest - [TC002] Product Page
+18:17:09.314 [main] INFO  com.testcases.ProductPageTest - Verification sort feature : Name (A to Z)
+18:17:09.314 [main] INFO  com.testcases.ProductPageTest - Login with user : problem_user
+18:17:09.518 [main] INFO  com.testcases.ProductPageTest - Login successful
+18:17:09.566 [main] INFO  com.testcases.ProductPageTest - Selected "Name (A to Z)" sort option
+18:17:09.594 [main] INFO  com.testcases.ProductPageTest - Verified all item are sorted according to name in aescending order
+18:17:09.594 [main] INFO  com.testcases.ProductPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testSortNameZtoA[standard_user, secret_sauce, inventory.html](1)" classname="com.testcases.ProductPageTest" time="0.298">
+    <system-out><![CDATA[18:17:11.533 [main] INFO  com.testcases.ProductPageTest - [TC002] Product Page
+18:17:11.533 [main] INFO  com.testcases.ProductPageTest - Verification sort feature : Name (Z to A)
+18:17:11.534 [main] INFO  com.testcases.ProductPageTest - Login with user : standard_user
+18:17:11.737 [main] INFO  com.testcases.ProductPageTest - Login successful
+18:17:11.798 [main] INFO  com.testcases.ProductPageTest - Selected "Name (Z to A)" sort option
+18:17:11.828 [main] INFO  com.testcases.ProductPageTest - Verified all item are sorted according to name in descending order
+18:17:11.828 [main] INFO  com.testcases.ProductPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testSortNameZtoA[problem_user, secret_sauce, inventory.html](2)" classname="com.testcases.ProductPageTest" time="0.282">
+    <failure message="Select dropdown option failed expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Select dropdown option failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.testcases.ProductPageTest.testSortNameZtoA(ProductPageTest.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[18:17:13.767 [main] INFO  com.testcases.ProductPageTest - [TC002] Product Page
+18:17:13.767 [main] INFO  com.testcases.ProductPageTest - Verification sort feature : Name (Z to A)
+18:17:13.767 [main] INFO  com.testcases.ProductPageTest - Login with user : problem_user
+18:17:13.972 [main] INFO  com.testcases.ProductPageTest - Login successful
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testSortPriceLowtoHigh[standard_user, secret_sauce, inventory.html](1)" classname="com.testcases.ProductPageTest" time="0.301">
+    <system-out><![CDATA[18:17:14.263 [main] INFO  com.testcases.ProductPageTest - Screenshot captured for failed test: testSortNameZtoA
+18:17:16.182 [main] INFO  com.testcases.ProductPageTest - [TC002] Product Page
+18:17:16.183 [main] INFO  com.testcases.ProductPageTest - Verification sort feature : Price (low to high)
+18:17:16.184 [main] INFO  com.testcases.ProductPageTest - Login with user : standard_user
+18:17:16.392 [main] INFO  com.testcases.ProductPageTest - Login successful
+18:17:16.450 [main] INFO  com.testcases.ProductPageTest - Selected "Price (low to high)" sort option
+18:17:16.478 [main] INFO  com.testcases.ProductPageTest - Verified all items are sorted according to price from low to high
+18:17:16.478 [main] INFO  com.testcases.ProductPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testSortPriceLowtoHigh[problem_user, secret_sauce, inventory.html](2)" classname="com.testcases.ProductPageTest" time="0.266">
+    <failure message="Select dropdown option failed expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Select dropdown option failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.testcases.ProductPageTest.testSortPriceLowtoHigh(ProductPageTest.java:148)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[18:17:18.447 [main] INFO  com.testcases.ProductPageTest - [TC002] Product Page
+18:17:18.448 [main] INFO  com.testcases.ProductPageTest - Verification sort feature : Price (low to high)
+18:17:18.448 [main] INFO  com.testcases.ProductPageTest - Login with user : problem_user
+18:17:18.660 [main] INFO  com.testcases.ProductPageTest - Login successful
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testSortPriceHightoLow[standard_user, secret_sauce, inventory.html](1)" classname="com.testcases.ProductPageTest" time="0.296">
+    <system-out><![CDATA[18:17:18.951 [main] INFO  com.testcases.ProductPageTest - Screenshot captured for failed test: testSortPriceLowtoHigh
+18:17:20.986 [main] INFO  com.testcases.ProductPageTest - [TC002] Product Page
+18:17:20.987 [main] INFO  com.testcases.ProductPageTest - Verification sort feature : Price (high to low)
+18:17:20.987 [main] INFO  com.testcases.ProductPageTest - Login with user : standard_user
+18:17:21.194 [main] INFO  com.testcases.ProductPageTest - Login successful
+18:17:21.250 [main] INFO  com.testcases.ProductPageTest - Selected "Price (high to low)" sort option
+18:17:21.276 [main] INFO  com.testcases.ProductPageTest - Verified all items are sorted according to price from low to high
+18:17:21.276 [main] INFO  com.testcases.ProductPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testSortPriceHightoLow[problem_user, secret_sauce, inventory.html](2)" classname="com.testcases.ProductPageTest" time="0.265">
+    <failure message="Select dropdown option failed expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Select dropdown option failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.testcases.ProductPageTest.testSortPriceHightoLow(ProductPageTest.java:186)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[18:17:23.159 [main] INFO  com.testcases.ProductPageTest - [TC002] Product Page
+18:17:23.160 [main] INFO  com.testcases.ProductPageTest - Verification sort feature : Price (high to low)
+18:17:23.160 [main] INFO  com.testcases.ProductPageTest - Login with user : problem_user
+18:17:23.366 [main] INFO  com.testcases.ProductPageTest - Login successful
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testCheckoutRandomAsset[standard_user, secret_sauce, inventory.html](1)" classname="com.testcases.CartPageTest" time="0.6">
+    <system-out><![CDATA[18:17:23.649 [main] INFO  com.testcases.ProductPageTest - Screenshot captured for failed test: testSortPriceHightoLow
+18:17:25.594 [main] INFO  com.testcases.CartPageTest - [TC001] Cart Page
+18:17:25.595 [main] INFO  com.testcases.CartPageTest - Verification of random order placement
+18:17:25.596 [main] INFO  com.testcases.CartPageTest - Login with user : standard_user
+18:17:25.794 [main] INFO  com.testcases.CartPageTest - Login successful
+18:17:25.886 [main] INFO  com.testcases.CartPageTest - Adding 3 random items to cart
+18:17:25.916 [main] INFO  com.testcases.CartPageTest - Navigating to cart
+18:17:25.931 [main] INFO  com.testcases.CartPageTest - Successfully navigated to cart
+18:17:25.937 [main] INFO  com.testcases.CartPageTest - Added no of items are present in the cart
+18:17:25.966 [main] INFO  com.testcases.CartPageTest - Proceeding to checkout
+18:17:25.976 [main] INFO  com.testcases.CartPageTest - Successfully navigated to checkout page
+18:17:26.136 [main] INFO  com.testcases.CartPageTest - Added user info and navigated further
+18:17:26.174 [main] INFO  com.testcases.CartPageTest - Completed final checkout process
+18:17:26.191 [main] INFO  com.testcases.CartPageTest - Verified order is getting placed succesfully
+18:17:26.191 [main] INFO  com.testcases.CartPageTest - PASS
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testCheckoutRandomAsset[problem_user, secret_sauce, inventory.html](2)" classname="com.testcases.CartPageTest" time="10.351">
+    <failure message="All/Some items are not getting added to cart expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: All/Some items are not getting added to cart expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.testcases.CartPageTest.testCheckoutRandomAsset(CartPageTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[18:17:28.247 [main] INFO  com.testcases.CartPageTest - [TC001] Cart Page
+18:17:28.247 [main] INFO  com.testcases.CartPageTest - Verification of random order placement
+18:17:28.248 [main] INFO  com.testcases.CartPageTest - Login with user : problem_user
+18:17:28.457 [main] INFO  com.testcases.CartPageTest - Login successful
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2025 6:17:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+</testsuite>

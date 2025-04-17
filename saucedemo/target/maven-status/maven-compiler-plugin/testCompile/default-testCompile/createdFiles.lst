@@ -1,0 +1,5 @@
+com/testcases/CartPageTest.class
+com/testcases/ProductPageTest.class
+com/testcases/BaseTest.class
+com/testcases/LoginPageTest.class
+com/dataprovider/LoginData.class

@@ -1,0 +1,6 @@
+com/pages/ProductPage.class
+com/pages/CartPage.class
+com/pages/CheckoutPage.class
+com/utitlities/Utilities.class
+com/pages/LoginPage.class
+com/configuration/Base.class

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "/Users/anjuv/testng-1.0.dtd">
+<suite name="SauceDemo Suite">
+  <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+  </listeners>
+  <test name="Login Page Test">
+    <classes>
+      <class name="com.testcases.LoginPageTest"/>
+    </classes>
+  </test>
+  <test name="Product Page Test">
+    <classes>
+      <class name="com.testcases.ProductPageTest"/>
+    </classes>
+  </test>
+  <test name="Cart Page Test">
+    <classes>
+      <class name="com.testcases.CartPageTest"/>
+    </classes>
+  </test>
+
+</suite>
